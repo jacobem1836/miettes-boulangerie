@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miettes Boulangerie Patisserie | Artisan Bakery | Graceville &amp; Corinda Brisbane</title>
+  <meta name="description" content="Miettes Boulangerie Patisserie — Graceville and Corinda's beloved neighbourhood bakery. Artisan sourdoughs, French croissants, pies, quiches and Campos coffee, baked fresh every day. Open from 6am.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Miettes Boulangerie Patisserie | Artisan Bakery Graceville &amp; Corinda">
+  <meta property="og:description" content="Artisan sourdoughs, flaky croissants, French pastries and Campos coffee. Baked fresh every day at two Brisbane locations — Graceville and Corinda.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:url" content="https://miettesbakery.com.au">
+  <meta property="og:site_name" content="Miettes Boulangerie Patisserie">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- JSON-LD: Primary location -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Miettes Boulangerie Patisserie",
+    "description": "Neighbourhood artisan boulangerie serving Graceville and Corinda, Brisbane. Sourdough breads, French croissants, pies, quiches, pastries and Campos coffee baked fresh daily.",
+    "url": "https://miettesbakery.com.au",
+    "telephone": "+61733797737",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Shop 8, 158 Graceville Avenue",
+      "addressLocality": "Graceville",
+      "addressRegion": "QLD",
+      "postalCode": "4075",
+      "addressCountry": "AU"
+    },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=Miettes+Boulangerie+Patisserie+158+Graceville+Avenue+Graceville+QLD",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -27.5285,
+      "longitude": 152.9789
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "06:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "06:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "06:00",
+        "closes": "16:00"
+      }
+    ],
+    "servesCuisine": ["French", "Bakery", "Patisserie"],
+    "priceRange": "$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "reviewCount": "26",
+      "bestRating": "5"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: Second location (Corinda) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Miettes Boulangerie Patisserie — Corinda",
+    "description": "Neighbourhood artisan boulangerie at Corinda, Brisbane. Sourdough breads, croissants, pies and Campos coffee baked fresh daily.",
+    "url": "https://miettesbakery.com.au",
+    "telephone": "+61733794481",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "661 Oxley Road",
+      "addressLocality": "Corinda",
+      "addressRegion": "QLD",
+      "postalCode": "4075",
+      "addressCountry": "AU"
+    },
+    "hasMap": "https://www.google.com/maps/search/?api=1&query=661+Oxley+Road+Corinda+QLD",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "06:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "06:00",
+        "closes": "16:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "06:00",
+        "closes": "14:00"
+      }
+    ],
+    "servesCuisine": ["French", "Bakery", "Patisserie"],
+    "priceRange": "$"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#" class="site-logo" aria-label="Miettes Boulangerie Patisserie — home">
+          <span class="logo-name">Miettes</span>
+          <span class="logo-sub">Graceville &amp; Corinda</span>
+        </a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#find-us">Find Us</a>
+          <a href="#contact">Contact</a>
+          <a href="tel:0733797737" class="nav-cta">07 3379 7737</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <main>
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="hero-bg"></div>
+    <div class="hero-texture" aria-hidden="true"></div>
+    <div class="hero-overlay" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="container">
+        <span class="hero-eyebrow">Graceville &amp; Corinda, Brisbane</span>
+        <h1 id="hero-heading">Baked fresh.<br><em>Every morning.</em></h1>
+        <p class="hero-tagline">Artisan sourdoughs, flaky French croissants, golden pies, rich pastries and great Campos coffee. Two locations in Brisbane's inner west — open from 6am.</p>
+        <div class="hero-actions">
+          <a href="#find-us" class="btn btn-primary">Visit Us</a>
+          <a href="#menu" class="btn btn-outline">Our Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST BAR ============ -->
+  <div class="trust-bar" role="complementary" aria-label="Key facts">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <svg class="trust-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Two Locations</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg class="trust-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Open from 6am</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg class="trust-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span>Campos Coffee</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item">
+          <svg class="trust-item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          <span>Neighbourhood Favourite</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-section" aria-labelledby="gallery-heading" id="gallery">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <span class="section-label">From the bakery</span>
+        <h2 class="section-heading" id="gallery-heading">Made with care, every morning</h2>
+        <p class="section-subheading">From the first sourdough loaves out of the deck oven to the last croissant in the cabinet — everything is baked on site, by hand, the way it should be.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/bakery-exterior.jpg" alt="Miettes Boulangerie Patisserie storefront and seating area in Graceville" width="600" height="450" loading="eager" fetchpriority="high" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">Miettes Graceville</div>
+        </div>
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/sourdough.jpg" alt="Artisan sourdough loaves baked fresh at Miettes" width="600" height="450" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">Artisan Sourdoughs</div>
+        </div>
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/croissants.jpg" alt="Flaky French croissants at Miettes Boulangerie" width="600" height="450" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">French Croissants</div>
+        </div>
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/pies.jpg" alt="Golden pies and savoury pastries at Miettes" width="600" height="450" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">Pies &amp; Pastries</div>
+        </div>
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/coffee.jpg" alt="Campos coffee at Miettes Boulangerie Graceville" width="600" height="450" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">Campos Coffee</div>
+        </div>
+        <div class="gallery-item no-img" style="aspect-ratio:4/3;">
+          <img src="images/cakes.jpg" alt="Pastries and cakes at Miettes" width="600" height="450" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          <div class="gallery-item-caption">Patisserie &amp; Cakes</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU HIGHLIGHTS ============ -->
+  <section class="menu-section" aria-labelledby="menu-heading" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What we bake</span>
+        <h2 class="section-heading" id="menu-heading">Something for every part of the day</h2>
+        <p class="section-subheading">The cabinet fills up from 6am and sells down through the morning. Some things are gone by midday — it's worth getting in early.</p>
+      </div>
+
+      <div class="menu-categories" role="tablist" aria-label="Menu categories">
+        <button class="menu-tab active" onclick="filterMenu('pies')" role="tab" aria-selected="true">Pies &amp; Quiches</button>
+        <button class="menu-tab" onclick="filterMenu('pastries')" role="tab" aria-selected="false">Pastries &amp; Danishes</button>
+        <button class="menu-tab" onclick="filterMenu('bread')" role="tab" aria-selected="false">Breads</button>
+        <button class="menu-tab" onclick="filterMenu('sandwiches')" role="tab" aria-selected="false">Sandwiches</button>
+        <button class="menu-tab" onclick="filterMenu('cakes')" role="tab" aria-selected="false">Cakes &amp; Sweets</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+
+        <!-- Pies & Quiches -->
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Lamb and Rosemary Pie</div>
+            <div class="menu-card-desc">Tender lamb in a savoury pie, enhanced with aromatic rosemary for a comforting, hearty meal.</div>
+          </div>
+          <div class="menu-card-price">$10.70</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Plain Chunky Pie</div>
+            <div class="menu-card-desc">A hearty pie with chunky fillings, perfect for a warm, satisfying meal.</div>
+            <span class="menu-card-badge">No. 2 Most Liked</span>
+          </div>
+          <div class="menu-card-price">$10.30</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Creamy Chicken Pie</div>
+            <div class="menu-card-desc">Tender chicken in a creamy sauce, encased in a flaky pastry for a comforting, savoury delight.</div>
+          </div>
+          <div class="menu-card-price">$10.30</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Quiche Lorraine</div>
+            <div class="menu-card-desc">Classic quiche with a creamy filling of eggs, bacon, and cheese in a flaky pastry crust.</div>
+          </div>
+          <div class="menu-card-price">$10.40</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Pumpkin and Feta Quiche</div>
+            <div class="menu-card-desc">Savoury quiche with pumpkin and feta, baked to perfection for a delightful, creamy taste.</div>
+          </div>
+          <div class="menu-card-price">$10.40</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Spinach and Feta Roll</div>
+            <div class="menu-card-desc">Flaky pastry filled with savoury spinach and feta cheese, perfect for a quick, delicious snack.</div>
+          </div>
+          <div class="menu-card-price">$7.20</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Chunky Cheese and Bacon Pie</div>
+            <div class="menu-card-desc">Savoury pie filled with chunky cheese and bacon, offering a rich and hearty flavour in every bite.</div>
+          </div>
+          <div class="menu-card-price">$10.30</div>
+        </div>
+
+        <div class="menu-card" data-cat="pies">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Plain Mince Pie</div>
+            <div class="menu-card-desc">Savoury mince beef pie with a flaky crust, perfect for a warm, comforting treat.</div>
+          </div>
+          <div class="menu-card-price">$10.30</div>
+        </div>
+
+        <!-- Pastries -->
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Apple and Almond Danish</div>
+            <div class="menu-card-desc">Our most popular pastry — buttery laminated dough with apple and almond cream.</div>
+            <span class="menu-card-badge">No. 1 Most Liked</span>
+          </div>
+          <div class="menu-card-price">$8.50</div>
+        </div>
+
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Cherry Danish</div>
+            <div class="menu-card-desc">Classic laminated Danish pastry with a generous cherry filling, golden and flaky from the oven.</div>
+          </div>
+          <div class="menu-card-price">$8.50</div>
+        </div>
+
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Sour Cherry Danish</div>
+            <div class="menu-card-desc">Flaky Danish pastry with sour cherry — a customer favourite at the Corinda store.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Plain Croissant</div>
+            <div class="menu-card-desc">Classic French croissant. Buttery, layered, properly laminated. The kind that shatters when you bite it.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Ham and Cheese Croissant</div>
+            <div class="menu-card-desc">Buttery croissant filled with ham and cheese — not oily, properly made.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <div class="menu-card" data-cat="pastries" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Apple Crumble Tart</div>
+            <div class="menu-card-desc">Our legendary tart — it serves four people. Customers call it out by name. Worth getting in early for.</div>
+            <span class="menu-card-badge">Customer Favourite</span>
+          </div>
+          <div class="menu-card-price">~$7.20</div>
+        </div>
+
+        <!-- Bread -->
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Heritage Sustainable White Sourdough</div>
+            <div class="menu-card-desc">Our signature sourdough. Hand-crafted with love, time and tradition using heritage flour.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Haloumi &amp; Mint Sourdough</div>
+            <div class="menu-card-desc">The weekend special. Amazingly flavourful — queues form for this one. Available Saturdays and Sundays.</div>
+            <span class="menu-card-badge">Weekend Special</span>
+          </div>
+          <div class="menu-card-price">Weekends</div>
+        </div>
+
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Sundried Tomato &amp; Basil Sourdough</div>
+            <div class="menu-card-desc">Fragrant and delicious. A weekend treat that sells out early.</div>
+            <span class="menu-card-badge">Weekend Special</span>
+          </div>
+          <div class="menu-card-price">Weekends</div>
+        </div>
+
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Turkish Bread</div>
+            <div class="menu-card-desc">Soft and pillowy. One of the most popular items in the cabinet and a consistent top seller on delivery.</div>
+            <span class="menu-card-badge">No. 3 Most Liked</span>
+          </div>
+          <div class="menu-card-price">$8.60</div>
+        </div>
+
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Walnut Bread</div>
+            <div class="menu-card-desc">A daily favourite with loyal regulars. Customers queue for this alongside the ciabatta and baguette.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <div class="menu-card" data-cat="bread" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">French Baguette</div>
+            <div class="menu-card-desc">Traditional baguette — one of the few genuinely good ones in Brisbane. Proper crust, proper crumb.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+        <!-- Sandwiches -->
+        <div class="menu-card" data-cat="sandwiches" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Chicken, Avocado and Salad Sandwich</div>
+            <div class="menu-card-desc">Chicken, avocado, and fresh salad layered in a sandwich for a refreshing and satisfying bite.</div>
+          </div>
+          <div class="menu-card-price">$15.00</div>
+        </div>
+
+        <div class="menu-card" data-cat="sandwiches" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Ham, Cheese and Tomato Sandwich</div>
+            <div class="menu-card-desc">Ham, cheese, and tomato layered in a fresh sandwich for a classic, satisfying bite.</div>
+          </div>
+          <div class="menu-card-price">$11.30</div>
+        </div>
+
+        <div class="menu-card" data-cat="sandwiches" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Egg and Lettuce Sandwich</div>
+            <div class="menu-card-desc">Egg and lettuce sandwich with fresh ingredients for a simple, satisfying bite.</div>
+          </div>
+          <div class="menu-card-price">$11.30</div>
+        </div>
+
+        <div class="menu-card" data-cat="sandwiches" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Tuna and Rocket Roll</div>
+            <div class="menu-card-desc">Made with tuna mix, rocket and celery. A proper roll made on our own bread.</div>
+          </div>
+          <div class="menu-card-price">$15.00</div>
+        </div>
+
+        <div class="menu-card" data-cat="sandwiches" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Build Your Own Sandwich</div>
+            <div class="menu-card-desc">Choose your bread, protein, cheese, salad, and condiments. Crusty sourdough, croissant, or Turkish bread. Made fresh to order, always your way.</div>
+          </div>
+          <div class="menu-card-price">From $4.50</div>
+        </div>
+
+        <!-- Cakes -->
+        <div class="menu-card" data-cat="cakes" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Apple Crumble Tart</div>
+            <div class="menu-card-desc">Legendary. Serves four people for around $7.20 — a deal that customers mention in almost every review.</div>
+            <span class="menu-card-badge">Local Legend</span>
+          </div>
+          <div class="menu-card-price">~$7.20</div>
+        </div>
+
+        <div class="menu-card" data-cat="cakes" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Mud Cake</div>
+            <div class="menu-card-desc">Rich, properly made mud cake. One of the top-selling items on delivery.</div>
+          </div>
+          <div class="menu-card-price">$11.70</div>
+        </div>
+
+        <div class="menu-card" data-cat="cakes" style="display:none;">
+          <div class="menu-card-content">
+            <div class="menu-card-name">Carrot Cake</div>
+            <div class="menu-card-desc">A bakery staple done well. Available in the cabinet alongside the rest of the sweet selection.</div>
+          </div>
+          <div class="menu-card-price">Available daily</div>
+        </div>
+
+      </div>
+
+      <div class="menu-note">
+        <p><strong>Stock is baked fresh every morning and sells down through the day.</strong> Some items sell out by late morning, especially on weekends. Delivery available via Uber Eats — or come in from 6am and pick straight from the cabinet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials-section" aria-labelledby="testimonials-heading" id="reviews">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <span class="section-label">What people say</span>
+        <h2 class="section-heading" id="testimonials-heading">The queues speak for themselves</h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card featured">
+          <div class="quote-mark" aria-hidden="true">"</div>
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-text">The queues attest to the well deserved popularity of Miettes. A great range of breads, pies and baked goods — definitely worth the wait.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">K</div>
+            <div>
+              <div class="testimonial-name">Kaaren5</div>
+              <div class="testimonial-source">TripAdvisor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark" aria-hidden="true">"</div>
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-text">We have been to Miettes many times. They serve Campos coffee and I have never been disappointed. They also make top quality breads, pastries and cakes to eat in or take away. For this area the prices are very reasonable and staff are efficient and friendly. I suggest the apple crumble tart (serves 4) for the grand sum of $7.20.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">M</div>
+            <div>
+              <div class="testimonial-name">MaryansS</div>
+              <div class="testimonial-source">TripAdvisor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark" aria-hidden="true">"</div>
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-text">Exceptional breads and pastries — very good continental European examples that are still rarely found in Brisbane. Always busy so be prepared to line up or start early. Very sharp staff who are obviously being given good guidance.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">O</div>
+            <div>
+              <div class="testimonial-name">Oscar Portman</div>
+              <div class="testimonial-source">Place Advisor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="quote-mark" aria-hidden="true">"</div>
+          <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-text">Freaking awesome! Everything here is amazing and I reckon you've got the best pies in Queensland! Pup friendly too is a great bonus.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar" aria-hidden="true">E</div>
+            <div>
+              <div class="testimonial-name">edenl</div>
+              <div class="testimonial-source">Word of Mouth</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about-section" aria-labelledby="about-heading" id="about">
+    <div class="container">
+      <div class="about-layout">
+        <div class="about-visual">
+          <div class="about-img-wrap no-img">
+            <img src="images/bakery-interior.jpg" alt="Inside Miettes Boulangerie — custom concrete counter with brass highlights and bread display" width="480" height="600" loading="lazy" onerror="this.parentElement.classList.add('no-img')">
+          </div>
+          <div class="about-badge" aria-hidden="true">
+            <span class="about-badge-number">4.5</span>
+            <span class="about-badge-label">TripAdvisor</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-label">Our story</span>
+          <h2 class="section-heading" id="about-heading">From a simple loaf to an institution</h2>
+          <p class="about-body">From a simple sliced white to an artisan loaf — each hand crafted with love, time and tradition. Miettes Boulangerie Patisserie brings traditional European energy and standards to the age-old practice of making bread and pastries in the heart of Brisbane's inner west.</p>
+          <p class="about-body">The bakery offers an extensive range of products including our renowned sourdoughs — Organic Whole-wheat, Heritage Sustainable White, Linseed and Sunflower, Spelt, Ancient Grain and Haloumi and Mint, to name a few. We also bake traditional baguettes, cornbread, Turkish bread and ciabatta alongside baskets of other freshly baked goods every morning.</p>
+          <p class="about-body">Miettes also offers a selection of French-style patisserie, cakes and biscuits to indulge your taste buds. Think flaky croissants and pastries, delectable dessert cakes and perfection pies. Our bread is good enough that we supply various types of sourdough and Turkish bread to other restaurants in the neighbourhood.</p>
+
+          <div class="about-highlights">
+            <div class="about-highlight">
+              <div class="about-highlight-label">Coffee</div>
+              <div class="about-highlight-value">Campos Coffee</div>
+            </div>
+            <div class="about-highlight">
+              <div class="about-highlight-label">Machine</div>
+              <div class="about-highlight-value">La Marzocco</div>
+            </div>
+            <div class="about-highlight">
+              <div class="about-highlight-label">Locations</div>
+              <div class="about-highlight-value">Graceville &amp; Corinda</div>
+            </div>
+            <div class="about-highlight">
+              <div class="about-highlight-label">Seating</div>
+              <div class="about-highlight-value">Indoor &amp; outdoor</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY VISIT ============ -->
+  <section class="why-section" aria-labelledby="why-heading" id="why-visit">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <span class="section-label">Why people come back</span>
+        <h2 class="section-heading" id="why-heading">Six good reasons to visit</h2>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Baked fresh daily</h3>
+          <p>Everything is baked on site every morning, starting before 6am. The cabinet is fresh — and when things sell out, they are gone for the day.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Two convenient locations</h3>
+          <p>Graceville on the river and Corinda along Oxley Road — both in Brisbane's inner west. Open six days a week from 6am.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <h3>Remarkable value</h3>
+          <p>The apple crumble tart serves four people. Sandwiches from $11.30. Pies and quiches under $11. One of the best-value bakeries in Brisbane.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg>
+          </div>
+          <h3>Artisan methods</h3>
+          <p>Proper laminated pastry. Long-fermented sourdoughs. Deck oven baking. The kind of methods that most bakeries have abandoned because they take too long.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Community favourite</h3>
+          <p>The queues outside on weekend mornings are the most honest form of review. Regulars come every week. Some have been coming for years.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Campos coffee</h3>
+          <p>Campos coffee, brewed on a La Marzocco machine. The kind of cafe quality that earns its own mention in almost every customer review.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FIND US ============ -->
+  <section class="find-section" aria-labelledby="find-heading" id="find-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Two locations</span>
+        <h2 class="section-heading" id="find-heading">Find us in the inner west</h2>
+        <p class="section-subheading">Both locations open six days a week from 6am. Plenty of parking at Graceville — and easy to reach by train or bus from either side of the city.</p>
+      </div>
+
+      <div class="locations-grid">
+
+        <!-- Graceville (primary) -->
+        <div class="location-card primary">
+          <span class="location-badge primary-badge">Primary Location</span>
+          <h3 class="location-name">Graceville</h3>
+          <p class="location-address">Shop 8, 158 Graceville Avenue<br>Graceville QLD 4075</p>
+
+          <div class="location-hours">
+            <h4>Opening hours</h4>
+            <div class="hours-table" role="table" aria-label="Graceville opening hours">
+              <span class="hours-day" role="rowheader">Monday</span>
+              <span class="hours-closed" role="cell">Closed</span>
+              <span class="hours-day" role="rowheader">Tuesday – Friday</span>
+              <span class="hours-time" role="cell">6:00 am – 6:00 pm</span>
+              <span class="hours-day" role="rowheader">Saturday</span>
+              <span class="hours-time" role="cell">6:00 am – 5:00 pm</span>
+              <span class="hours-day" role="rowheader">Sunday</span>
+              <span class="hours-time" role="cell">6:00 am – 4:00 pm</span>
+            </div>
+          </div>
+
+          <div class="location-actions">
+            <a href="tel:0733797737" class="location-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53A2 2 0 0 1 3.59 1.35h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.9z"/></svg>
+              07 3379 7737
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Shop+8+158+Graceville+Avenue+Graceville+QLD+4075" target="_blank" rel="noopener noreferrer" class="location-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              View on map
+            </a>
+          </div>
+        </div>
+
+        <!-- Corinda (secondary) -->
+        <div class="location-card">
+          <span class="location-badge secondary-badge">Second Location</span>
+          <h3 class="location-name">Corinda</h3>
+          <p class="location-address">661 Oxley Road<br>Corinda QLD 4075</p>
+
+          <div class="location-hours">
+            <h4>Opening hours</h4>
+            <div class="hours-table" role="table" aria-label="Corinda opening hours">
+              <span class="hours-day" role="rowheader">Monday – Friday</span>
+              <span class="hours-time" role="cell">6:00 am – 5:00 pm</span>
+              <span class="hours-day" role="rowheader">Saturday</span>
+              <span class="hours-time" role="cell">6:00 am – 4:00 pm</span>
+              <span class="hours-day" role="rowheader">Sunday</span>
+              <span class="hours-time" role="cell">6:00 am – 2:00 pm</span>
+            </div>
+          </div>
+
+          <div class="location-actions">
+            <a href="tel:0733794481" class="location-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53A2 2 0 0 1 3.59 1.35h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.9z"/></svg>
+              07 3379 4481
+            </a>
+            <a href="https://www.google.com/maps/search/?api=1&query=661+Oxley+Road+Corinda+QLD+4075" target="_blank" rel="noopener noreferrer" class="location-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              View on map
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact-section" aria-labelledby="contact-heading" id="contact">
+    <div class="container">
+      <div class="contact-layout">
+
+        <div class="contact-left">
+          <span class="section-label">Get in touch</span>
+          <h2 class="section-heading" id="contact-heading">Come and say hello</h2>
+
+          <div class="contact-info-block">
+            <h3>Graceville</h3>
+            <div class="contact-detail">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53A2 2 0 0 1 3.59 1.35h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.9z"/></svg>
+              <a href="tel:0733797737">07 3379 7737</a>
+            </div>
+            <div class="contact-detail">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Shop 8, 158 Graceville Avenue, Graceville QLD 4075
+            </div>
+          </div>
+
+          <div class="contact-info-block">
+            <h3>Corinda</h3>
+            <div class="contact-detail">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.53A2 2 0 0 1 3.59 1.35h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l.92-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16.9z"/></svg>
+              <a href="tel:0733794481">07 3379 4481</a>
+            </div>
+            <div class="contact-detail">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              661 Oxley Road, Corinda QLD 4075
+            </div>
+          </div>
+
+          <p class="contact-note">Miettes does not take bookings — just walk in. The earlier in the day, the fuller the cabinet. Popular items sell out before noon, especially on weekends.</p>
+        </div>
+
+        <div class="contact-right">
+          <form class="contact-form" action="#" method="post" aria-label="Contact form">
+            <h3>Send us a message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Your name</label>
+                <input type="text" id="contact-name" name="name" autocomplete="name" required placeholder="Jane Smith">
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Phone number</label>
+                <input type="tel" id="contact-phone" name="phone" autocomplete="tel" placeholder="04xx xxx xxx">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email address</label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-group">
+              <label for="contact-occasion">What's the occasion?</label>
+              <select id="contact-occasion" name="occasion">
+                <option value="">Select one (optional)</option>
+                <option value="general">General enquiry</option>
+                <option value="order">Bulk or special order</option>
+                <option value="catering">Catering enquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" required placeholder="What would you like to know?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message</button>
+            <p class="form-trust">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              We will get back to you within one business day.
+            </p>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-layout">
+
+        <div class="footer-brand">
+          <div class="logo-name">Miettes</div>
+          <div class="logo-sub">Boulangerie Patisserie</div>
+          <p class="footer-tagline">Hand-crafted with love, time and tradition. Two neighbourhood bakeries in Brisbane's inner west.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="https://www.facebook.com/miettesbakery/" target="_blank" rel="noopener noreferrer" aria-label="Miettes on Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/miettesbakery/" target="_blank" rel="noopener noreferrer" aria-label="Miettes on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul class="footer-nav">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#find-us">Find Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Locations</h4>
+
+          <div class="footer-location-name">Graceville</div>
+          <div class="footer-location-detail">Shop 8, 158 Graceville Avenue</div>
+          <div class="footer-location-detail">Graceville QLD 4075</div>
+          <a href="tel:0733797737" class="footer-location-phone">07 3379 7737</a>
+
+          <div class="footer-location-name">Corinda</div>
+          <div class="footer-location-detail">661 Oxley Road</div>
+          <div class="footer-location-detail">Corinda QLD 4075</div>
+          <a href="tel:0733794481" class="footer-location-phone">07 3379 4481</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">2026 Miettes Boulangerie Patisserie. All rights reserved.</p>
+        <p class="footer-copy">Graceville &amp; Corinda, Brisbane QLD</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ MOBILE CTA BAR ============ -->
+  <div class="mobile-cta-bar" role="complementary" aria-label="Mobile call to action">
+    <a href="tel:0733797737">Visit Us — 07 3379 7737</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
